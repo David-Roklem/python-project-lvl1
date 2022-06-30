@@ -1,0 +1,8 @@
+from random import randint
+
+first_sentence = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+print(first_sentence)
+
+random_number = randint(1, 100)
+
