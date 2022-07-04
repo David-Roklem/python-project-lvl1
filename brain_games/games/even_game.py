@@ -7,7 +7,7 @@ name = string('May I have your name? ')
 print(f'Hello, {name}!')
 
 
-def play_game():
+def play_even_game():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     i = 0
     correct_answers = 0
