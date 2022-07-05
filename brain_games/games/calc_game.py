@@ -1,7 +1,6 @@
 from random import randint
 from random import choice
 from prompt import string
-from brain_games.cli import welcome_user
 
 print('Welcome to the Brain Games!')
 name = string('May I have your name? ')
@@ -20,5 +19,5 @@ def play_calc_game():
         if int(user_answer) == eval(res):
             print('Correct!')
         else:
-            return print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{eval(res)}'.")
+            return print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{eval(res)}'.\nLet's try again, {name}")
     print(f'Congratulations {name}')
