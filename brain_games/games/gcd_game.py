@@ -20,4 +20,4 @@ def play_gcd_game():
         else:
             return print(f"{user_answer} is wrong answer ;(. Correct answer was {res}.\n Let's try again, {name}")
 
-    print(f'Congratulations {name}')
+    print(f'Congratulations {name}!')

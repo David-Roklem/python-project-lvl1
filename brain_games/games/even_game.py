@@ -20,4 +20,4 @@ def play_even_game():
             print('Correct!')
         if random_number % 2 != 0 and user_answer != 'no':
             return print(f"'{user_answer}' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
-    return print(f'Congratulations, {name}')
+    return print(f'Congratulations, {name}!')

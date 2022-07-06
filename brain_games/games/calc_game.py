@@ -20,4 +20,4 @@ def play_calc_game():
             print('Correct!')
         else:
             return print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{eval(res)}'.\nLet's try again, {name}")
-    print(f'Congratulations {name}')
+    print(f'Congratulations {name}!')
