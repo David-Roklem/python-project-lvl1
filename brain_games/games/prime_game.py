@@ -24,14 +24,14 @@ def play_prime_game():
         user_answer = string('Your answer: ')
         if isPrime(random_number) is True:
             correct_answer = 'yes'
-        else:
+            if correct_answer == user_answer:
+                print('Correct!')
+            else:
+                return print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
+        if isPrime(random_number) is False:
             correct_answer = 'no'
-        if isPrime(random_number) is True and user_answer == 'yes':
-            print('Correct!')
-        if isPrime(random_number) is True and user_answer == 'no':
-            return print(f"'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, {name}!")
-        if isPrime(random_number) is False and user_answer == 'no':
-            print('Correct!')
-        if isPrime(random_number) is False and user_answer == 'yes':
-            return print(f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
+            if correct_answer == user_answer:
+                print('Correct!')
+            else:
+                return print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
     print(f'Congratulations {name}!')

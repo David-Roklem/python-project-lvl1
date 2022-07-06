@@ -23,4 +23,3 @@ def play_progression_game():
         else:
             return print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
     print(f'Congratulations {name}!')
-
