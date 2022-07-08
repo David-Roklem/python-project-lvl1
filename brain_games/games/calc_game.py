@@ -19,5 +19,7 @@ def play_calc_game():
         if int(user_answer) == eval(res):
             print('Correct!')
         else:
-            return print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{eval(res)}'.\nLet's try again, {NAME}!")
+            return print(f"'{user_answer}' is wrong answer ;(. "
+                         f"Correct answer was '{eval(res)}'."
+                         f"\nLet's try again, {NAME}!")
     print(f'Congratulations, {NAME}!')
