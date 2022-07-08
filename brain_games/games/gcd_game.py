@@ -13,7 +13,7 @@ def play_gcd_game():
         a = randint(1, 50)
         b = randint(1, 50)
         res = gcd(a, b)
-        print(f'Question {a} {b}')
+        print(f'Question: {a} {b}')
         user_answer = string('Your answer: ')
         if res == int(user_answer):
             print('Correct!')
