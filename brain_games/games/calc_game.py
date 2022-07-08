@@ -4,7 +4,7 @@ from prompt import string
 
 print('Welcome to the Brain Games!')
 NAME = string('May I have your name? ')
-print(f'Hello, {NAME}!')
+print(f'Hello {NAME}!')
 
 
 def play_calc_game():
