@@ -18,6 +18,6 @@ def play_gcd_game():
         if res == int(user_answer):
             print('Correct!')
         else:
-            return print(f"{user_answer} is wrong answer ;(. Correct answer was {res}.\n Let's try again, {NAME}")
+            return print(f"{user_answer} is wrong answer ;(. Correct answer was {res}.\n Let's try again, {NAME}!")
 
     print(f'Congratulations, {NAME}!')
