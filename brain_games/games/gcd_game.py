@@ -3,8 +3,8 @@ from prompt import string
 from math import gcd
 
 print('Welcome to the Brain Games!')
-name = string('May I have your name? ')
-print(f'Hello, {name}!')
+NAME = string('May I have your name? ')
+print(f'Hello, {NAME}!')
 
 
 def play_gcd_game():
@@ -18,6 +18,6 @@ def play_gcd_game():
         if res == int(user_answer):
             print('Correct!')
         else:
-            return print(f"{user_answer} is wrong answer ;(. Correct answer was {res}.\n Let's try again, {name}")
+            return print(f"{user_answer} is wrong answer ;(. Correct answer was {res}.\n Let's try again, {NAME}")
 
-    print(f'Congratulations {name}!')
+    print(f'Congratulations, {NAME}!')

@@ -3,8 +3,8 @@ from random import choice
 from prompt import string
 
 print('Welcome to the Brain Games!')
-name = string('May I have your name? ')
-print(f'Hello, {name}!')
+NAME = string('May I have your name? ')
+print(f'Hello, {NAME}!')
 
 
 def play_calc_game():
@@ -19,5 +19,5 @@ def play_calc_game():
         if int(user_answer) == eval(res):
             print('Correct!')
         else:
-            return print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{eval(res)}'.\nLet's try again, {name}")
-    print(f'Congratulations {name}!')
+            return print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{eval(res)}'.\nLet's try again, {NAME}")
+    print(f'Congratulations, {NAME}!')

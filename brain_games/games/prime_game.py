@@ -2,8 +2,8 @@ from random import randint
 from prompt import string
 
 print('Welcome to the Brain Games!')
-name = string('May I have your name? ')
-print(f'Hello, {name}!')
+NAME = string('May I have your name? ')
+print(f'Hello, {NAME}!')
 
 
 def play_prime_game():
@@ -27,11 +27,11 @@ def play_prime_game():
             if correct_answer == user_answer:
                 print('Correct!')
             else:
-                return print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
+                return print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {NAME}!")
         if isPrime(random_number) is False:
             correct_answer = 'no'
             if correct_answer == user_answer:
                 print('Correct!')
             else:
-                return print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
-    print(f'Congratulations {name}!')
+                return print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {NAME}!")
+    print(f'Congratulations, {NAME}!')

@@ -2,8 +2,8 @@ from random import randint
 from prompt import string
 
 print('Welcome to the Brain Games!')
-name = string('May I have your name? ')
-print(f'Hello, {name}!')
+NAME = string('May I have your name? ')
+print(f'Hello, {NAME}!')
 
 
 def play_even_game():
@@ -15,9 +15,9 @@ def play_even_game():
         if random_number % 2 == 0 and user_answer == 'yes':
             print('Correct!')
         if random_number % 2 == 0 and user_answer != 'yes':
-            return print(f"'{user_answer}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, {name}!")
+            return print(f"'{user_answer}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, {NAME}!")
         if random_number % 2 != 0 and user_answer == 'no':
             print('Correct!')
         if random_number % 2 != 0 and user_answer != 'no':
-            return print(f"'{user_answer}' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
-    return print(f'Congratulations, {name}!')
+            return print(f"'{user_answer}' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {NAME}!")
+    return print(f'Congratulations, {NAME}!')

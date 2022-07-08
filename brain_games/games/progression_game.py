@@ -3,8 +3,8 @@ from random import choice
 from prompt import string
 
 print('Welcome to the Brain Games!')
-name = string('May I have your name? ')
-print(f'Hello, {name}!')
+NAME = string('May I have your name? ')
+print(f'Hello, {NAME}!')
 
 
 def play_progression_game():
@@ -21,5 +21,5 @@ def play_progression_game():
         if user_answer == correct_answer:
             print('Correct!')
         else:
-            return print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!")
-    print(f'Congratulations {name}!')
+            return print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {NAME}!")
+    print(f'Congratulations, {NAME}!')
