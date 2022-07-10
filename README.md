@@ -1,5 +1,11 @@
 # Brain games
 
+This repository is made by David Varvashtyan, a student of Hexlet educational project. 
+It contains a project called "Brain games" which includes five mathematical textual games that can push your mind to the limits beyond your imagination ;) (No!). 
+I hope, you will find it useful or, at least, fun!
+
+================================================================================
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/David-Roklem/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/David-Roklem/python-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a90556b94f6af8866ae0/maintainability)](https://codeclimate.com/github/David-Roklem/python-project-lvl1/maintainability)
