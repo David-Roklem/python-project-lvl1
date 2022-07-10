@@ -7,7 +7,7 @@
 
 ### asciinema
 
-brain-even - [![asciicast](https://asciinema.org/a/NvW81fSUwig71ByBRCieWQA7S.png)]
+brain-even - <script src="https://asciinema.org/a/NvW81fSUwig71ByBRCieWQA7S.js" id="asciicast-14" async></script>
 
 brain-calc - [![asciicast](https://asciinema.org/a/uCgJ1LhaN7EBZlKf6znvBHUew.png)](https://asciinema.org/a/14)
 
