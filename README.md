@@ -13,12 +13,12 @@ I hope, you will find it useful or, at least, fun!
 
 ### asciinema
 
-#### brain-even  [![asciicast](https://asciinema.org/a/NvW81fSUwig71ByBRCieWQA7S.svg)](https://asciinema.org/a/NvW81fSUwig71ByBRCieWQA7S)
+#### brain-even [![asciicast](https://asciinema.org/a/510729.svg)](https://asciinema.org/a/510729)
 
-#### brain-calc  [![asciicast](https://asciinema.org/a/uCgJ1LhaN7EBZlKf6znvBHUew.svg)](https://asciinema.org/a/uCgJ1LhaN7EBZlKf6znvBHUew)
+#### brain-calc [![asciicast](https://asciinema.org/a/510727.svg)](https://asciinema.org/a/510727)
 
-#### brain-gcd  [![asciicast](https://asciinema.org/a/OssR7TCLqevnRopJyy3ZZBOeL.svg)](https://asciinema.org/a/OssR7TCLqevnRopJyy3ZZBOeL)
+#### brain-gcd [![asciicast](https://asciinema.org/a/510732.svg)](https://asciinema.org/a/510732)
 
-#### brain-progression  [![asciicast](https://asciinema.org/a/6zDAH3vqzBxuxqIKkoO9v3eJL.svg)](https://asciinema.org/a/6zDAH3vqzBxuxqIKkoO9v3eJL)
+#### brain-progression [![asciicast](https://asciinema.org/a/510735.svg)](https://asciinema.org/a/510735)
 
-#### brain-prime  [![asciicast](https://asciinema.org/a/hvVg8x4Fhc2aXYBizKqX1cOre.svg)](https://asciinema.org/a/hvVg8x4Fhc2aXYBizKqX1cOre)
+#### brain-prime [![asciicast](https://asciinema.org/a/510734.svg)](https://asciinema.org/a/510734)
