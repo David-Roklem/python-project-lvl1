@@ -1,10 +1,7 @@
 from random import randint
 from random import choice
 from prompt import string
-
-print('Welcome to the Brain Games!')
-NAME = string('May I have your name? ')
-print(f'Hello, {NAME}!')
+from ..scripts.common_logic import NAME
 
 
 def play_progression_game():
