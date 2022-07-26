@@ -15,14 +15,14 @@ def play_even_game():
                 print('Correct!')
             else:
                 return print(f"'{user_answer}' is wrong answer ;(. "
-                         f"Correct answer was '{correct_answer}'."
-                         f"\nLet's try again, {NAME}!")
+                             f"Correct answer was '{correct_answer}'."
+                             f"\nLet's try again, {NAME}!")
         elif random_number % 2 != 0:
             correct_answer = 'no'
             if user_answer == correct_answer:
                 print('Correct!')
             else:
                 return print(f"'{user_answer}' is wrong answer ;(. "
-                         f"Correct answer was '{correct_answer}'."
-                         f"\nLet's try again, {NAME}!")
+                             f"Correct answer was '{correct_answer}'."
+                             f"\nLet's try again, {NAME}!")
     return print(f'Congratulations, {NAME}!')

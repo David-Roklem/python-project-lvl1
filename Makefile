@@ -16,4 +16,5 @@ package-install:
 lint:
 	poetry run flake8 brain_games
 
-.PHONY: install test lint selfcheck check build
+.PHONY:
+	install test lint selfcheck check build
