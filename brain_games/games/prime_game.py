@@ -1,6 +1,6 @@
 from random import randint
 from prompt import string
-from ..scripts.common_logic import NAME
+from brain_games.scripts.common_logic import NAME
 
 
 # Создается вложенная функция,

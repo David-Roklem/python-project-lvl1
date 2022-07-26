@@ -1,7 +1,7 @@
 from random import randint
 from math import gcd
 from prompt import string
-from ..scripts.common_logic import NAME
+from brain_games.scripts.common_logic import NAME
 
 
 def play_gcd_game():

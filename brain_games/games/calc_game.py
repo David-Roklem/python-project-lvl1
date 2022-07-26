@@ -1,6 +1,6 @@
 from random import randint
 from random import choice
-from ..scripts.common_logic import NAME
+from brain_games.scripts.common_logic import NAME
 
 
 def play_calc_game():
