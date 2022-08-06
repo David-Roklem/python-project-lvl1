@@ -9,10 +9,11 @@ Python 3.10 or above
 
 ### Installation
 Use following commands for installing:
-    poetry install
-    poetry build
-    poetry publish
-    python3 -m pip install dist/*.whl
+
+	poetry install
+	poetry build
+	poetry publish
+	python3 -m pip install dist/*.whl
 
 ================================================================================
 
