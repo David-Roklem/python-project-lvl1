@@ -12,4 +12,3 @@ def play_calc_game():
     question = f'{first_operand} {choice(operators)} {second_operand}'
     correct_answer = str(eval(question))
     return question, correct_answer
-

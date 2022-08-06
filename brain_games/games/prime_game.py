@@ -1,6 +1,7 @@
 from random import randint
-from prompt import string
-from brain_games.scripts.common_logic import NAME
+
+
+message = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 # Создается вложенная функция,
@@ -15,25 +16,9 @@ def isPrime(n):
 
 
 def play_prime_game():
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    for _ in range(3):
-        random_number = randint(2, 100)
-        print(f'Question: {random_number}')
-        user_answer = string('Your answer: ')
-        if isPrime(random_number) is True:
-            correct_answer = 'yes'
-            if correct_answer == user_answer:
-                print('Correct!')
-            else:
-                return print(f"'{user_answer}' is wrong answer ;(. "
-                             f"Correct answer was '{correct_answer}'."
-                             f"\nLet's try again, {NAME}!")
-        if isPrime(random_number) is False:
-            correct_answer = 'no'
-            if correct_answer == user_answer:
-                print('Correct!')
-            else:
-                return print(f"'{user_answer}' is wrong answer ;(. "
-                             f"Correct answer was '{correct_answer}'."
-                             f"\nLet's try again, {NAME}!")
-    print(f'Congratulations, {NAME}!')
+    random_number = randint(2, 100)
+    if isPrime(random_number):
+        correct_answer = 'yes'
+    if not isPrime(random_number):
+        correct_answer = 'no'
+    return random_number, correct_answer
