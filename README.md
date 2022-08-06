@@ -4,6 +4,16 @@ This repository is made by David Varvashtyan, a student of Hexlet educational pr
 It contains a project called "Brain games" which includes five mathematical textual games that can push your mind to the limits beyond your imagination ;) (No!). 
 I hope, you will find it useful or, at least, fun!
 
+### Requirements
+Python 3.10 or above
+
+### Installation
+Use following commands for installing:
+    poetry install
+    poetry build
+    poetry publish
+    python3 -m pip install dist/*.whl
+
 ================================================================================
 
 ### Hexlet tests and linter status:
