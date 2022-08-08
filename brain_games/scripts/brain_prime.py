@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 
-from brain_games.games.prime_game import play_prime_game
-from brain_games.scripts import common_logic
-from brain_games.games.prime_game import message
+from brain_games import common_logic
+from brain_games.games import prime
 
 
 def main():
-    common_logic.launch_game(play_prime_game, message)
+    common_logic.launch_game(prime.play_prime_game, prime.GUIDE)
 
 
 if __name__ == '__main__':

@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 
-from brain_games.games.even_game import play_even_game
-from brain_games.scripts import common_logic
-from brain_games.games.even_game import message
+from brain_games import common_logic
+from brain_games.games import even
 
 
 def main():
-    common_logic.launch_game(play_even_game, message)
+    common_logic.launch_game(even.play_even_game, even.GUIDE)
 
 
 if __name__ == '__main__':

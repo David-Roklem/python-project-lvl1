@@ -2,7 +2,7 @@ from random import randint
 from random import choice
 
 
-message = 'What number is missing in the progression?'
+GUIDE = 'What number is missing in the progression?'
 
 
 def play_progression_game():

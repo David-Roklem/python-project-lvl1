@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 
-from brain_games.games.progression_game import play_progression_game
-from brain_games.scripts import common_logic
-from brain_games.games.progression_game import message
+from brain_games import common_logic
+from brain_games.games import progression
 
 
 def main():
-    common_logic.launch_game(play_progression_game, message)
+    common_logic.launch_game(progression.play_progression_game, progression.GUIDE)
 
 
 if __name__ == '__main__':

@@ -1,12 +1,11 @@
 #!/usr/bin/env python
 
-from brain_games.games.calc_game import play_calc_game
-from brain_games.scripts import common_logic
-from brain_games.games.calc_game import message
+from brain_games.games import calc
+from brain_games import common_logic
 
 
 def main():
-    common_logic.launch_game(play_calc_game, message)
+    common_logic.launch_game(calc.play_calc_game, calc.GUIDE)
 
 
 if __name__ == '__main__':

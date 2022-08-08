@@ -2,7 +2,7 @@ from random import randint
 from random import choice
 
 
-message = 'What is the result of the expression?'
+GUIDE = 'What is the result of the expression?'
 
 
 def play_calc_game():
