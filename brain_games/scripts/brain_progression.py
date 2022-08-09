@@ -5,7 +5,9 @@ from brain_games.games import progression
 
 
 def main():
-    common_logic.launch_game(progression.play_progression_game, progression.GUIDE)
+    common_logic.launch_game(
+        progression.play_progression_game, progression.GUIDE
+    )
 
 
 if __name__ == '__main__':
