@@ -17,7 +17,7 @@ def is_prime(n):
     return d * d > n
 
 
-def play_prime_game():
+def play_game():
     random_number = randint(2, 100)
     if is_prime(random_number):
         correct_answer = 'yes'

@@ -6,7 +6,7 @@ from operator import add, sub, mul
 GUIDE = 'What is the result of the expression?'
 
 
-def play_calc_game():
+def play_game():
     operators = ['+', '-', '*']
     first_operand = randint(1, 100)
     second_operand = randint(1, 100)

@@ -5,7 +5,7 @@ from brain_games.games import gcd
 
 
 def main():
-    engine.launch_game(gcd.play_gcd_game, gcd.GUIDE)
+    engine.launch_game(gcd)
 
 
 if __name__ == '__main__':
