@@ -11,9 +11,10 @@ def play_game():
     if len(progression) > 10:
         del progression[10::]
     correct_answer = choice(progression)
-    for i, n in enumerate(progression):
+    for i in range(len(progression)):
         if progression[i] == correct_answer:
             progression[i] = '..'
-    progression = ' '.join(str(i) for i in progression)
+    progression = [str(i) for i in progression]
+    progression = ' '.join(progression)
     correct_answer = str(correct_answer)
     return progression, correct_answer

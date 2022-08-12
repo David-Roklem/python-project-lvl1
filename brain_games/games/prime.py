@@ -7,10 +7,10 @@ GUIDE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 # Создается вложенная функция,
 # которая проверяет, является ли число n простым или нет.
 def is_prime(n):
-  for d in range(2, int(n ** 0.5) + 1):
-    if n % d == 0:
-      return False
-  return True
+    for d in range(2, int(n ** 0.5) + 1):
+        if n % d == 0:
+            return False
+    return True
 
 
 def play_game():
