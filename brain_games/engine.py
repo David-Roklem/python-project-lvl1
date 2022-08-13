@@ -3,13 +3,13 @@ from prompt import string
 NUMBER_OF_ROUNDS = 3
 
 
-def launch_game(game):
+def launch(game):
     print('Welcome to the Brain Games!')
     name = string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.GUIDE)
     for _ in range(NUMBER_OF_ROUNDS):
-        question, correct_answer = game.play_game()
+        question, correct_answer = game.generate_round()
         print(f'Question: {question}')
         user_answer = string("Your answer: ")
         if user_answer != correct_answer:
@@ -17,7 +17,6 @@ def launch_game(game):
                   f"Correct answer was '{correct_answer}'."
                   f"\nLet's try again, {name}!")
             break
-        else:
-            print('Correct!')
+        print('Correct!')
     else:
         print(f'Congratulations, {name}!')

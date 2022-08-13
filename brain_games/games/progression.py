@@ -5,7 +5,7 @@ from random import choice
 GUIDE = 'What number is missing in the progression?'
 
 
-def play_game():
+def generate_round():
     progression = list(range(randint(1, 10),
                              randint(35, 50), randint(2, 5)))
     if len(progression) > 10:
