@@ -1,5 +1,4 @@
 from random import randint
-from random import choice
 
 
 GUIDE = 'What number is missing in the progression?'
@@ -9,11 +8,10 @@ def generate_round():
     progression = list(range(randint(1, 10),
                              randint(35, 50), randint(2, 5)))
     progression = progression[:10]
-    correct_answer = choice(progression)
-    for i in range(len(progression)):
-        if progression[i] == correct_answer:
-            progression[i] = '..'
-    progression = [str(i) for i in progression]
+    random_index = randint(0, len(progression) - 1)
+    correct_answer = progression[random_index]
+    progression[random_index] = '..'
+    progression = list(map(str, progression))
     progression = ' '.join(progression)
     correct_answer = str(correct_answer)
     return progression, correct_answer
