@@ -8,8 +8,7 @@ GUIDE = 'What number is missing in the progression?'
 def generate_round():
     progression = list(range(randint(1, 10),
                              randint(35, 50), randint(2, 5)))
-    if len(progression) > 10:
-        del progression[10::]
+    progression = progression[:10]
     correct_answer = choice(progression)
     for i in range(len(progression)):
         if progression[i] == correct_answer:
